@@ -57,16 +57,16 @@ hr {
 
 section h3.title {
   /* text-transform: capitalize; */
-  font: bold 32px 'Open Sans', sans-serif;
-  margin-bottom: 30 px;
+  font: bold 2.5vh 'Open Sans', sans-serif;
+  margin-bottom: 1.8%;
   text-align: center;
 }
 
 section p {
-  max-width: 775px;
+  max-width: 70%;
   line-height: 2;
-  padding: 0 20px;
-  margin-bottom: 30px;
+  padding: 0 2%;
+  margin-bottom: 4%;
   text-align: center;
 }
 /*Header Styles*/
@@ -95,7 +95,7 @@ header h2 {
 
 header nav {
   display: flex;
-  margin-right: -15px;
+  margin-right: -1%;
 }
 
 header nav li {
@@ -121,8 +121,12 @@ header nav li {
   background-size: cover;
   z-index: -1;
   background-color: #80a3db;
+}
 
-  /* background-position: center; */
+@media only screen and (max-width: 600px) {
+  .hero .background-image {
+    background-position: center;
+  }
 }
 
 .hero h1 {
