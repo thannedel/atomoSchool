@@ -48,7 +48,7 @@ section {
 } */
 
 hr {
-  width: 250px;
+  width: 25%;
   height: 3px;
   background-color: #3f51b5;
   border: 0;
@@ -77,7 +77,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 100px 0;
+  padding: 4% 8% 0;
   animation: 1s fadein 0.5s forwards;
   opacity: 0;
   color: #fff;
@@ -136,7 +136,7 @@ header nav li {
 }
 
 .hero a.btn {
-  padding: 20px 46px;
+  padding: 4% 6%;
 }
 
 .hero-content-area {
