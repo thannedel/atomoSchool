@@ -40,6 +40,18 @@ section {
   padding: 100px 80px;
 }
 
+@media (max-width: 1000px) {
+  section {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 80px 30px;
+  }
+}
+
 /* .grid {
   width: 100%;
   display: flex;
